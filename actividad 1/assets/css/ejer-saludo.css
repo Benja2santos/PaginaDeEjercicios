@@ -1,0 +1,70 @@
+:root {
+    --color-blanco: #ffffff;
+    --color-fondo: #0f172a;
+    --color-contenedor: #020617;
+    --color-tarjeta: #1e293b;
+    --color-texto-principal: #f8fafc;
+    --color-texto-secundario: #cbd5f5;
+    --color-boton: #3b82f6;
+    --color-boton-hover: #2563eb;
+}
+.caja_saludo{
+    background-color: var(--color-contenedor);
+    color: var(--color-texto-principal);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(9, 9, 9, 0.7);
+    /* box-shadow: 0 0 10px #bf00ff, 0 0 20px #bf00ff, 0 0 40px #bf00ff; */
+
+}
+.saludo{
+    background-color: var(--color-tarjeta);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+#nombre{
+    color: var(--color-blanco);
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+}
+/* ESTA CLASE NO SE TOCA */
+.btn-saludar{
+    background-color: var(--color-tarjeta);
+    width: 100%;
+    margin-top: 10px;
+}
+#id-btn-saludar{
+    width: 100;
+    padding: 10px 60px;
+    background-color: var(--color-boton);
+    color: var(--color-blanco);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn-saludar:hover #id-btn-saludar{
+    background-color: #0ACC1A;
+}
+#nombre{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+}
+#mensaje{
+    margin-top: 10px;
+    background-color: var(--color-tarjeta);
+    color: var(--color-texto-secundario);
+    font-size: 17px;
+}
