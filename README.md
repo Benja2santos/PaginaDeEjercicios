@@ -1,6 +1,7 @@
-# Pagina De Ejercicios
-Aca es para probar los ejercicios que hagamos en el instituto.
-Prueba y error.
+
+<h1> Pagina De Ejercicios</h1>
+<p>Aca es para probar los ejercicios que hagamos en el instituto.
+Prueba y error.</p>
 
 <div style="display: flex; justify-content: 50%;gap: 10px;">
   <img width="45%" src="https://github.com/user-attachments/assets/edc29707-175c-4d46-9e5a-28e7db532f3e">
